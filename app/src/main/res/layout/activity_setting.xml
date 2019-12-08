@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".SettingActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Image_Setting"
+        android:layout_width="206dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp"
+        android:padding="20dp"
+        android:src="@mipmap/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/setting_user_name"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Image_Setting"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="22dp"
+        android:foregroundGravity="center"
+        android:shadowColor="#00141414"
+        android:text="@string/your_name"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textColorHighlight="@color/common_google_signin_btn_text_dark_focused"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_focused"
+        android:textColorLink="#00050404"
+        android:textIsSelectable="false"
+        android:textSize="30sp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/setting_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setting_user_name"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:freezesText="false"
+        android:padding="2dp"
+        android:text="@string/hi_there_i_am_using_chat_daily"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="16sp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/setting_image_btn"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setting_status"
+        android:layout_alignStart="@+id/setting_user_name"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="39dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:gravity="center_horizontal"
+        android:text="@string/change_profile_picture"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <Button
+        android:id="@+id/setting_status_btn"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setting_image_btn"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#F00E49"
+        android:gravity="center_horizontal"
+        android:text="@string/edit_status"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>

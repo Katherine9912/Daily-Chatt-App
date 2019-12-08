@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ChatDay</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">password</string>
+    <string name="create_account">Create Account</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="display_name" />
+    <string name="log_out">Log Out</string>
+    <string name="login">Login</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="welcome_to_daily_chat">Welcome to Daily Chat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="status">status</string>
+    <string name="users_name">Users Name</string>
+    <string name="decline_friend_request">decline friend request</string>
+    <string name="send_friend_request">SEND FRIEND REQUEST</string>
+    <string name="total_friend">Total friend</string>
+    <string name="current_user_status">current user status</string>
+    <string name="hi_there_i_am_using_chat_daily">Hi there, I am using Chat Daily!</string>
+    <string name="change_profile_picture">Change Profile Picture</string>
+    <string name="edit_status">Edit Status</string>
+    <string name="user_name">User Name</string>
+    <string name="your_name" />
+    <string name="insert_message">Enter Message...</string>
+    <string name="User_name">User name</string>
+    <string name="last_seen">Last Seen</string>
+    <string name="textview">TextView</string>
+    <string name="display_Name">Display Name</string>
+    <string name="enter_message">Enter Message...</string>
+    <string name="chat_button">chat_button</string>
+    <string name="login_account">Login account</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignWithParentIfMissing="false"
+    android:layout_alignParentLeft="false"
+    android:layout_alignParentTop="false"
+    android:layout_alignParentRight="false"
+    android:layout_alignParentBottom="true"
+    android:layout_centerInParent="true"
+    android:layout_centerHorizontal="false"
+    android:layout_centerVertical="false"
+    android:background="@color/colorPrimary"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="280sp"
+        android:gravity="center"
+        android:text="@string/welcome_to_daily_chat"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/StartReg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@id/textView"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/white"
+        android:elegantTextHeight="true"
+        android:scrollbarSize="8dp"
+        android:text="@string/register" />
+
+    <Button
+        android:id="@+id/StartLogin_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@id/StartReg_btn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="35dp"
+        android:background="@android:color/white"
+        android:scrollbarSize="8dp"
+        android:text="@string/login" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="233dp"
+        android:layout_height="190dp"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="130dp"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+</RelativeLayout>

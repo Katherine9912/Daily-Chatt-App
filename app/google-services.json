@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "247307391301",
+    "firebase_url": "https://chatday-cf097.firebaseio.com",
+    "project_id": "chatday-cf097",
+    "storage_bucket": "chatday-cf097.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247307391301:android:6e04c2fa7a9a14c704ee2c",
+        "android_client_info": {
+          "package_name": "com.student.inti.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247307391301-1tqhoc8i1sr8iv05vq15s9vk2hd8askp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.student.inti.com",
+            "certificate_hash": "e77734925af1543ffed220252ae6cd80281c51ff"
+          }
+        },
+        {
+          "client_id": "247307391301-j7hopnsre16m9jdivs5995erlro7j0le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzaKr51Utn2HMtRRzPW-gVB3B-PLirDmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247307391301-j7hopnsre16m9jdivs5995erlro7j0le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
